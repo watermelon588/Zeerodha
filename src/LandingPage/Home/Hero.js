@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Hero = () => {
   return (
-    <div className='container p-5'>
-      <div className='row text-center'>
+    <div className="container p-5">
+      <div className="row text-center">
         <img
           src="../Media/homeHero.png"
           alt="Heroimage"
@@ -15,7 +15,8 @@ const Hero = () => {
         </h2>
 
         <p className="fs-5 text-secondary text-center mb-4">
-          Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.
+          Online platform to invest in stocks, derivatives, mutual funds, ETFs,
+          bonds, and more.
         </p>
         <button
           className="btn btn-zerodha mt-4 fs-5 mb-5"
@@ -23,11 +24,9 @@ const Hero = () => {
         >
           Sign up for free
         </button>
-
-
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;
