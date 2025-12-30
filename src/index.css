@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.btn-zerodha {
+  background-color: #387ed1;
+  color: #fff;
+  font-weight: 600;
+  font-size: large;
+  border-radius: 4px;
+  padding: 10px 0px;
+}
+
+.btn-zerodha:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.navbar-nav{
+  margin-left: 750px;
+}
